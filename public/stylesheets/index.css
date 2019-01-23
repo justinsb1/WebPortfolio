@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url(/GoodPhotos/background2.jpg);
+    background-size: cover;
+    /* places body content behind other content */
+    z-index: 0;
+    /* allows the body to cover the entire page */
+    height: 100%;
+    width: 100%;
+    /* keeps the background image from repeating vertically/horizontally */
+    background-repeat: no-repeat;
+    
+}
+
+
+#about-me {
+    text-align: center;
+    color: white;
+}
+
+.container2 {
+    height: 200px;
+    text-align: center;
+}
+
+.img-circle {
+    height: 200px;
+    width: 200px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    color: white;
+}
+
+.img-rounded {
+    padding: 7px;
+    height: 45px;
+    width: 45px;
+    
+}
+
+#firstProject {
+    /* pushes the first project paragraph down a little */
+    padding-top: 20px;
+}
+

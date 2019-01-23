@@ -1,0 +1,22 @@
+#content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+/* Gradient transparent - color - transparent */
+#break  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+ 

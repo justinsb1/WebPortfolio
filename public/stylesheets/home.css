@@ -97,10 +97,10 @@ h1 {
     }
     /* at 20% we fade back out until 30%*/
     33% {
-        opacity: 1
+        opacity: 1;
     }
     49.5% {
-        opacity: 0
+        opacity: 0;
     }
 }
 

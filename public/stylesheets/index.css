@@ -1,11 +1,13 @@
+/* CSS FOR WEB PORTFOLIO */
+
 h1 {
     text-align: center;
     color: white;
 }
 
-html, body {
-    height: 100%;
-}
+ 
+
+
 body {
     background-image: url(/GoodPhotos/background2.jpg);
     background-size: cover;
@@ -16,6 +18,8 @@ body {
     width: 100%;
     /* keeps the background image from repeating vertically/horizontally */
     background-repeat: no-repeat;
+    overflow: auto;
+    
     
 }
 
@@ -25,10 +29,6 @@ body {
     color: white;
 }
 
-.container2 {
-    height: 200px;
-    text-align: center;
-}
 
 .img-circle {
     height: 200px;
@@ -41,10 +41,20 @@ h3 {
     color: white;
 }
 
-.container {
-    color: white;
+
+
+.container2 {
+    height: 200px;
+    text-align: center;
 }
 
+.project-container {
+    color: white;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+/* CLASSES */
 .img-rounded {
     padding: 7px;
     height: 45px;
@@ -52,8 +62,16 @@ h3 {
     
 }
 
+/* ID */
 #firstProject {
     /* pushes the first project paragraph down a little */
     padding-top: 20px;
 }
+
+#secondProject {
+    padding-top: 20px;
+}
+
+
+
 

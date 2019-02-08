@@ -1,3 +1,5 @@
+/* BODY CODE */
+
 /* Selects all img tags inside of thumbnails */
 .thumbnail img {
  width: 100%;   
@@ -13,6 +15,86 @@
     padding: 9px;
 }
 
-#delete-form {
-    display: inline;
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
+
+/* Sticky footer styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+
+.content {
+    padding-bottom: 60px;
+}
+
+#paragraph {
+    padding-top: 20px;
+}
+
+/* BODY CODE */
+
+
+/* Scrollbar code */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* Scollbar code */
+
+
+
+/* footer styles */
+
+#content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+/* Gradient transparent - color - transparent */
+#break  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+
+/* footer sticks to the bottom of the page */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* set up fixed height of the footer here */
+    height: 60px;
+}
+
+

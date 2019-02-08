@@ -18,7 +18,7 @@ body {
     width: 100%;
     /* keeps the background image from repeating vertically/horizontally */
     background-repeat: no-repeat;
-    overflow: auto;
+    
     
     
 }
